@@ -1,0 +1,74 @@
+---
+title: "CC3 Microbiote"
+output: 
+  github_document:
+    toc: true
+    toc_depth: 2
+---
+
+
+```{bash}
+wget ftp.sra.ebi.ac.uk/vol1/fastq/SRR774/006/SRR7741826/SRR7741826_1.fastq.gz
+wget ftp.sra.ebi.ac.uk/vol1/fastq/SRR774/007/SRR7741827/SRR7741827_1.fastq.gz
+wget ftp.sra.ebi.ac.uk/vol1/fastq/SRR774/008/SRR7741828/SRR7741828_1.fastq.gz
+wget ftp.sra.ebi.ac.uk/vol1/fastq/SRR774/009/SRR7741829/SRR7741829_1.fastq.gz
+wget ftp.sra.ebi.ac.uk/vol1/fastq/SRR774/000/SRR7741830/SRR7741830_1.fastq.gz
+wget ftp.sra.ebi.ac.uk/vol1/fastq/SRR774/001/SRR7741831/SRR7741831_1.fastq.gz
+wget ftp.sra.ebi.ac.uk/vol1/fastq/SRR774/002/SRR7741832/SRR7741832_1.fastq.gz
+wget ftp.sra.ebi.ac.uk/vol1/fastq/SRR774/003/SRR7741833/SRR7741833_1.fastq.gz
+wget ftp.sra.ebi.ac.uk/vol1/fastq/SRR774/004/SRR7741834/SRR7741834_1.fastq.gz
+wget ftp.sra.ebi.ac.uk/vol1/fastq/SRR774/005/SRR7741835/SRR7741835_1.fastq.gz
+wget ftp.sra.ebi.ac.uk/vol1/fastq/SRR774/006/SRR7741836/SRR7741836_1.fastq.gz
+wget ftp.sra.ebi.ac.uk/vol1/fastq/SRR774/007/SRR7741837/SRR7741837_1.fastq.gz
+wget ftp.sra.ebi.ac.uk/vol1/fastq/SRR774/008/SRR7741838/SRR7741838_1.fastq.gz
+wget ftp.sra.ebi.ac.uk/vol1/fastq/SRR774/009/SRR7741839/SRR7741839_1.fastq.gz
+wget ftp.sra.ebi.ac.uk/vol1/fastq/SRR774/000/SRR7741840/SRR7741840_1.fastq.gz
+wget ftp.sra.ebi.ac.uk/vol1/fastq/SRR774/001/SRR7741841/SRR7741841_1.fastq.gz
+wget ftp.sra.ebi.ac.uk/vol1/fastq/SRR774/002/SRR7741842/SRR7741842_1.fastq.gz
+wget ftp.sra.ebi.ac.uk/vol1/fastq/SRR774/003/SRR7741843/SRR7741843_1.fastq.gz
+wget ftp.sra.ebi.ac.uk/vol1/fastq/SRR774/004/SRR7741844/SRR7741844_1.fastq.gz
+wget ftp.sra.ebi.ac.uk/vol1/fastq/SRR774/005/SRR7741845/SRR7741845_1.fastq.gz
+wget ftp.sra.ebi.ac.uk/vol1/fastq/SRR774/006/SRR7741846/SRR7741846_1.fastq.gz
+wget ftp.sra.ebi.ac.uk/vol1/fastq/SRR774/007/SRR7741847/SRR7741847_1.fastq.gz
+wget ftp.sra.ebi.ac.uk/vol1/fastq/SRR774/008/SRR7741848/SRR7741848_1.fastq.gz
+wget ftp.sra.ebi.ac.uk/vol1/fastq/SRR774/009/SRR7741849/SRR7741849_1.fastq.gz
+wget ftp.sra.ebi.ac.uk/vol1/fastq/SRR774/000/SRR7741850/SRR7741850_1.fastq.gz
+wget ftp.sra.ebi.ac.uk/vol1/fastq/SRR774/001/SRR7741851/SRR7741851_1.fastq.gz
+wget ftp.sra.ebi.ac.uk/vol1/fastq/SRR774/002/SRR7741852/SRR7741852_1.fastq.gz
+wget ftp.sra.ebi.ac.uk/vol1/fastq/SRR774/003/SRR7741853/SRR7741853_1.fastq.gz
+wget ftp.sra.ebi.ac.uk/vol1/fastq/SRR774/004/SRR7741854/SRR7741854_1.fastq.gz
+wget ftp.sra.ebi.ac.uk/vol1/fastq/SRR774/005/SRR7741855/SRR7741855_1.fastq.gz
+```
+```{bash}
+wget ftp.sra.ebi.ac.uk/vol1/fastq/SRR774/006/SRR7741826/SRR7741826_2.fastq.gz
+wget ftp.sra.ebi.ac.uk/vol1/fastq/SRR774/007/SRR7741827/SRR7741827_2.fastq.gz
+wget ftp.sra.ebi.ac.uk/vol1/fastq/SRR774/008/SRR7741828/SRR7741828_2.fastq.gz
+wget ftp.sra.ebi.ac.uk/vol1/fastq/SRR774/009/SRR7741829/SRR7741829_2.fastq.gz
+wget ftp.sra.ebi.ac.uk/vol1/fastq/SRR774/000/SRR7741830/SRR7741830_2.fastq.gz
+wget ftp.sra.ebi.ac.uk/vol1/fastq/SRR774/001/SRR7741831/SRR7741831_2.fastq.gz
+wget ftp.sra.ebi.ac.uk/vol1/fastq/SRR774/002/SRR7741832/SRR7741832_2.fastq.gz
+wget ftp.sra.ebi.ac.uk/vol1/fastq/SRR774/003/SRR7741833/SRR7741833_2.fastq.gz
+wget ftp.sra.ebi.ac.uk/vol1/fastq/SRR774/004/SRR7741834/SRR7741834_2.fastq.gz
+wget ftp.sra.ebi.ac.uk/vol1/fastq/SRR774/005/SRR7741835/SRR7741835_2.fastq.gz
+wget ftp.sra.ebi.ac.uk/vol1/fastq/SRR774/006/SRR7741836/SRR7741836_2.fastq.gz
+wget ftp.sra.ebi.ac.uk/vol1/fastq/SRR774/007/SRR7741837/SRR7741837_2.fastq.gz
+wget ftp.sra.ebi.ac.uk/vol1/fastq/SRR774/008/SRR7741838/SRR7741838_2.fastq.gz
+wget ftp.sra.ebi.ac.uk/vol1/fastq/SRR774/009/SRR7741839/SRR7741839_2.fastq.gz
+wget ftp.sra.ebi.ac.uk/vol1/fastq/SRR774/000/SRR7741840/SRR7741840_2.fastq.gz
+wget ftp.sra.ebi.ac.uk/vol1/fastq/SRR774/001/SRR7741841/SRR7741841_2.fastq.gz
+wget ftp.sra.ebi.ac.uk/vol1/fastq/SRR774/002/SRR7741842/SRR7741842_2.fastq.gz
+wget ftp.sra.ebi.ac.uk/vol1/fastq/SRR774/003/SRR7741843/SRR7741843_2.fastq.gz
+wget ftp.sra.ebi.ac.uk/vol1/fastq/SRR774/004/SRR7741844/SRR7741844_2.fastq.gz
+wget ftp.sra.ebi.ac.uk/vol1/fastq/SRR774/005/SRR7741845/SRR7741845_2.fastq.gz
+wget ftp.sra.ebi.ac.uk/vol1/fastq/SRR774/006/SRR7741846/SRR7741846_2.fastq.gz
+wget ftp.sra.ebi.ac.uk/vol1/fastq/SRR774/007/SRR7741847/SRR7741847_2.fastq.gz
+wget ftp.sra.ebi.ac.uk/vol1/fastq/SRR774/008/SRR7741848/SRR7741848_2.fastq.gz
+wget ftp.sra.ebi.ac.uk/vol1/fastq/SRR774/009/SRR7741849/SRR7741849_2.fastq.gz
+wget ftp.sra.ebi.ac.uk/vol1/fastq/SRR774/000/SRR7741850/SRR7741850_2.fastq.gz
+wget ftp.sra.ebi.ac.uk/vol1/fastq/SRR774/001/SRR7741851/SRR7741851_2.fastq.gz
+wget ftp.sra.ebi.ac.uk/vol1/fastq/SRR774/002/SRR7741852/SRR7741852_2.fastq.gz
+wget ftp.sra.ebi.ac.uk/vol1/fastq/SRR774/003/SRR7741853/SRR7741853_2.fastq.gz
+wget ftp.sra.ebi.ac.uk/vol1/fastq/SRR774/004/SRR7741854/SRR7741854_2.fastq.gz
+wget ftp.sra.ebi.ac.uk/vol1/fastq/SRR774/005/SRR7741855/SRR7741855_2.fastq.gz
+```
+
